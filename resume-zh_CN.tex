@@ -22,7 +22,7 @@
 }
 \basicInfo{
   \faHome 山东 潍坊\:\textperiodcentered\:\
-  \faLaptop 后端研发、数据研发\:\textperiodcentered\:\
+  \faLaptop 后端开发、数据工程\:\textperiodcentered\:\
   \faMars 男
 }
   % \linkedin[billryan8]{https://www.linkedin.com/in/billryan8}}
@@ -38,16 +38,32 @@
     \item \textbf{GPA:} 4.5 / 5.0\space \space \textbf{排名:} 3 / 144 (前3\%)
   \end{itemize}
 
-  \section{\faUsers\ 实习/项目经历}
+  \section{\faUsers\ 实习经历}
 
-  \datedsubsection{\textbf{微软（亚洲）互联网工程院}}{2022年11月 -- 至今}
-  \role{Software Engineering Intern}{STCA Beijing Bing}
-  目前负责基于ChatGPT模型和Bing实时热搜数据的\textbf{自动创作工具}。实习中还参与了\textbf{Bing用户增长数据分析、搜索平台工具研发}等工作。
+  \datedsubsection{\textbf{阿里巴巴（中国）有限公司}}{2023年6月 -- 至今}
+  \role{Java后端开发实习生}{飞猪·住宿行业研发中心·行业基础平台}
+  研究学习酒店交易、商品技术框架，负责国际酒店商家工具的Java后端开发工作
   \begin{itemize}
-    \item 负责\textbf{ChatGPT和DALLE-2模型的工程化}，实现基于Bing实时热搜数据的\textbf{自动创作工具}，提供文章实时改写、新闻智能生成以及自动配图功能。主要职责包括设计和开发后端系统，通过接口响应优化、数据存储优化和Prompt优化，提高了自动创作工具的性能和内容生成质量。
-    \item 负责Bing Search中\textbf{用户搜索相关的数据开发}，对New Bing相关的用户增长相关进行分析，并通过改进搜索功能提高相关指标。
-    \item 维护和开发\textbf{Bing Search}的平台工具，负责\textbf{Bing中国区首页新闻热点数据的实时更新}功能。实现了Bing HotSearch热搜、Bing新标签页股票指数更新等功能，协调多个团队的工作，推动了Bing首页功能的升级。
-    \item 涉及技术：C\#、Python、SQL、Redis
+    \item 端午节线上问题排查处理，通过分析线上日志，定位到问题所在，通过修复标准商品错误码和线上接口返回结果的解析不一致的问题，解决了线上问题。
+    \item 实现根据用户id的商品检索功能......目前还是打杂。
+    % \item 负责Bing Search中\textbf{用户搜索相关的数据开发和数据分析}，对New Bing相关的用户增长相关进行分析，并通过改进搜索功能提高相关指标，通过ABTest进行功能分析。
+    % \item 维护\textbf{Bing Search}的平台工具，负责\textbf{Bing中国区首页新闻热点数据的实时更新}功能。实现了Bing HotSearch热搜、Bing新标签页股票指数更新等功能，协调多个团队的工作，推动了Bing首页界面显示的优化。
+    % \item 涉及技术：C\#、Python、SQL、Redis
+  \end{itemize}
+
+  \datedsubsection{\textbf{微软（亚洲）互联网工程院}}{2022年11月 -- 2023年6月}
+  \role{软件开发工程实习生(Software Develop Engineer Intern)}{STCA Beijing Bing}
+  1. \textbf{Microsoft Creator Copilot}，基于Bing热搜新闻的\textbf{AIGC自动创作工具}，目的是结合LLM技术和搜索引擎技术辅助创作，提高内容创作者的效率，根据用户的需求和偏好，生成不同类型和风格的内容的文章内容，提供段落实时改写、热搜话题新闻生成以及自动配图等功能。
+  \begin{itemize}
+    \item 算法：基于\textbf{ChatGPT模型}，实现ReAct框架使大语言模型可以与Bing搜索引擎交互，结合推理和搜索动作，获取实时的搜索结果信息作为知识库，克服了思维链推理中普遍存在的妄想和错误传播问题，并生成更具解释性的类人任务解决轨迹，通过与搜索引擎交互，扩展大语言模型的能力，提高AI新闻创作的多样性和创造性。
+    
+    ReAct框架将对话系统的任务分解为两种类型的动作：推理动作（Reasoning Actions）和搜索动作（Search Actions）。推理动作是指LLM根据当前的对话状态和用户输入，生成一个或多个候选的回答或询问。搜索动作是指LLM根据当前的对话状态和用户输入，生成一个或多个候选的搜索查询，并利用搜索引擎获取相关的搜索结果。
+    \item 工程：主要职责包括\textbf{设计和开发写作工具后端框架}，通过接口响应优化、HTTP连接池、线程池、Redis缓存、KV存储优化和Prompt优化，提高了自动创作工具的性能和内容生成体验。通过异步请求和多线程优化，吞吐量从原来的100 QPS提升到了500 QPS以上。
+  \end{itemize}
+  2. 参与\textbf{Bing用户增长数据分析、搜索平台工具研发}等工作
+  \begin{itemize}
+    \item 负责Bing Search中\textbf{用户搜索相关的数据开发和数据分析}，对New Bing相关的用户增长指标进行分析，并通过改进搜索功能提高DAU、DSQ，通过ABTest进行功能分析。
+    \item 维护\textbf{Bing Search}的平台工具，负责\textbf{Bing中国区首页新闻热点数据的实时更新}功能。实现了Bing HotSearch热搜、Bing新标签页股票指数更新等功能，协调多个团队的工作，推动了Bing首页界面显示的优化。
   \end{itemize}
   
   \datedsubsection{\textbf{上海哔哩哔哩科技有限公司}}{2022年6月 -- 2022年9月}
@@ -58,9 +74,8 @@
     \item 设计了Hive MetaStore中\textbf{分区信息数据的解耦方案}。通过\textbf{全量拷贝、Binlog增量变更、数据一致性检测、分布式调度同步}的方法落入\textbf{TiDB}的方案加速查询，优化了Hive表分区信息查询速度和资源占用，\textbf{接口性能提升60\%}
     \item 在部门降本增效计划中，参与了无效数据表集中下线的功能设计，通过\textbf{分布式定时调度框架Archer}设计实现了高效的数据表安全删除逻辑功能
     \item 设计了覆盖全、数据准、粒度细的\textbf{表使用热度}功能服务，为各类数据应用和数据治理提供支持。
-    \item 涉及技术：Java、Kafka、SpringBoot、Hive、TiDB、RocketMQ、ClickHouse、MySQL
   \end{itemize}
-  
+  \section{\faUsers\ 项目经历}
   \datedsubsection{\textbf{用于列车售票的可线性化并发数据结构}}{2021年9月 -- 2021年12月}
   \role{个人项目}{中国科学院大学《并发数据结构与多核编程》，林惠民院士}
   \begin{onehalfspacing}
