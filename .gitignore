@@ -36,6 +36,26 @@
 
 *.dvi
 *.ps
+# TeX files
+*.aux
+*.log
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.toc
 
+# Generated files
+*.pdf
+*.gz
+*.synctex
+
+# IDE and editor-specific directories
+.idea/
+.vscode/
+*.swp
+
+# Build directories
+build/
+output/
 ############################################
 # do not upload secret infomation
